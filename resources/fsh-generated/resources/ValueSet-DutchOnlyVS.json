@@ -1,0 +1,26 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DutchOnlyVS",
+  "id": "DutchOnlyVS",
+  "description": "BCP47 code for Netherlands only",
+  "version": "1.0.0",
+  "url": "http://fake-acme.org/fhir/ValueSet/DutchOnlyVS",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:bcp:47",
+        "concept": [
+          {
+            "code": "nl-NL",
+            "display": "Dutch (Netherlands)"
+          },
+          {
+            "code": "fy-NL",
+            "display": "Frysian (Netherlands)"
+          }
+        ]
+      }
+    ]
+  }
+}

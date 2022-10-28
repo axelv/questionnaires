@@ -1,0 +1,5 @@
+title: "[Let's Build] Building dynamic IGs"
+description: A demonstration implementation guide for the Building dynamic Implementation Guides with FHIR Shorthand and Firely Query Language session.
+version: 0.0.1
+style-root: project
+style-name: devdays-theme

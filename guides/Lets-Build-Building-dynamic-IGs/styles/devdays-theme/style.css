@@ -1,0 +1,257 @@
+html, body {
+  padding: 0;
+  margin: 0; }
+
+#ig-viewer {
+  position: relative;
+  height: 100%;
+}
+  
+
+#ig-viewer .ig-view-content {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+    height: auto !important;
+    margin-bottom: -155px;
+    padding-bottom: 155px; 
+    background: #fcfcfc;}
+  
+  /* background: #F7F7F7  */
+
+
+    #ig-viewer .ig-view-content #ig-view-twolevelmenu .header {
+      background: #A72931;
+      border-bottom: 1px solid #A72931;         
+      }
+  
+      #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar {
+        background: #ffffff; /* #EDEDED #63C1D8 #FFDC36 !important;  */
+        margin-bottom: 3px; 
+        }
+  
+        /* Hide title by changing font color to transparent */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header a.navbar-brand {
+ 
+            color:   #ffffff00;
+            text-indent: 300px;
+            font-size: 1.5em;
+            margin-left: 20px; 
+            margin-right: 700px;
+            background: url('https://gallery.mailchimp.com/a3a58874fca9fdb7efd667c48/images/04a5c7c5-c0ee-4f06-822e-632755712b80.png');
+            background-position: left center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+
+        /* Change menu bar font color (title, menu & submenu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar a {
+          font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+
+            font-size: 1.2em;
+          }
+
+        /* Change menu bar font color (only menu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar-nav > li > a {
+            color: #777780;
+            margin-left: 0px;
+        }
+        
+        /* Change menu bar item background color and font color (only menu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar-nav > li > a:hover {
+            background-color: #FAFAFA;
+            color: #A72931;
+        }
+
+        /* Change menu bar font color (only submenu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .dropdown-menu a {
+            color: #16A2C5;
+        }
+
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .dropdown-menu a:hover {
+            color: #A72931;
+        }
+        
+        /* Change menu background color (only submenu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .dropdown-menu {
+            background-color: white;
+            color: #A72931;
+            font-size: 14;
+        }
+
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .navbar-header {
+          margin-bottom: 0; }
+  
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .navbar-nav > li > a {
+          padding-top: 15px; }
+  
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header a.navbarnavbar-collapse {
+            margin: 20px;
+        }
+ 
+    #ig-viewer .ig-view-content #ig-view-twolevelmenu .content .nav-pills > li > a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+          }
+
+    #ig-viewer .ig-view-content #ig-view-twolevelmenu .content .nav-pills > li > a:hover {
+
+  color: #A72931; }
+
+  #ig-viewer .ig-view-footer {
+    background-color: #4D4D4D;
+    color: #eee;
+    height: 115px;
+    margin-top: 40px;
+    padding-top: 40px;
+    position: relative;
+
+     }
+
+.roundbox {
+    border: 2px solid #BDBDBD;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #FAFAFA;
+    list-style-position:inside;
+    /* outline: black solid 5px;*/
+    /* outline-offset: 5px;*/
+}
+    
+.highlight {
+    color: blue;
+    font-family:    "Courier New"
+                    Courier
+                    monospace;
+}
+
+h1, h2, h3, h4, {
+    color: #16A2C5;
+}
+
+h1{
+    color: #A72931;
+    font-family: Fira Sans Medium,sans-serif;
+    background-color: #EDEDED;
+    font-weight: bold;
+    padding: 0.5em;
+    font-size: 1.65em
+}
+
+h2{
+    color: #16A2C5;
+    font-family: Fira Sans Medium,sans-serif;
+    font-weight: bold;
+        font-size: 1.2em
+
+}
+
+h3{
+    color: #16A2C5;
+    font-family: Fira Sans Medium,sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+h4{
+    color: #16A2C5;
+    font-family: Fira Sans Medium,sans-serif;
+    font-size: 1.0em;
+    padding: 0.1em;
+}
+
+h5{
+    color: black;
+    font-family: Fira Sans Medium,sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 70%;
+    padding: 0.1em;
+}
+
+/*standard table class for tables in html code*/
+table.standard-html{
+    table-layout: fixed;
+    width: 100%;
+}
+
+/*standard table class for cells in tables in html code*/
+th.standard-html, td.standard-html, tr.standard-html{
+    border-style: solid;
+    border-width: 1.5px 0.5px 1.5px;
+    border-color: #eeecec;
+    font-size: 14;
+    padding: 0.5em;
+    /*w3-hoverable*/
+}
+
+/*standard table class for tables in markdown*/
+.standard table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+/*fitcontent table class for tables in markdown*/
+.fitcontent table{
+    table-layout: auto;
+    white-space:nowrap;
+}
+
+/*fitcontent table class for cells in tables in html code*/
+th.fitcontent, td.fitcontent, tr.fitcontent{
+    border-style: solid;
+    border-width: 1.5px 0.5px 1.5px;
+    border-color: #eeecec;
+    font-size: 14;
+    padding: 0.5em;
+    /*w3-hoverable*/
+}
+
+th {
+    background-color: #FAFAFA;
+}
+
+pre {
+  background-color: #EEE9E2;
+  font-family:     "Courier New"
+                    Courier
+                    monospace;
+}
+
+
+ /*background of {{render */
+.stu3-treetable {
+  background-color: #ffffff;
+  
+}
+
+ /*text color of {{render */
+.stu3-treetable .treetable-wrapper.hybrid a:not(.constraints), .stu3-treetable .treetable-wrapper.hybrid span:not(.constraints) {
+    color: #4D4D4D;
+}
+
+
+.scrollbalk{
+    max-height: 450px;
+    overflow: auto;
+}
+
+.content.container{
+padding-left: 2%;
+padding-right: 6%;
+}
+
+
+body
+{
+
+ background: no-repeat top left;
+
+    background-size: cover;
+
+    clear:both;
+    padding:0px;
+    margin:0px;
+}
+

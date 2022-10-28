@@ -1,0 +1,1 @@
+Alias: $BCP47 = urn:ietf:bcp:47
